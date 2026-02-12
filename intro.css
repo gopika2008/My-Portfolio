@@ -1,0 +1,108 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    position: relative;
+    left: 200px;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    position: relative;
+    left: 650px;
+    
+}
+.font{
+    font-size: 1.5rem;
+}
+header{
+    background-color: darkcyan;
+    text-align: center;
+    padding: 15px; 
+    color: white;
+}
+#sec1{
+    background-color: darkgrey;
+    padding: 25px;
+    height: 300px;
+    width: 800px;
+    position: relative;
+    top: 55px;
+    left: 400px;
+    text-align: center;
+    padding-top: 80px;
+}
+#sec2{
+    position: relative;
+    left: 400px;
+    top: 65px;
+    background-color: darkgray;
+    height: 300px;
+    width: 800px;
+    text-align: center;
+    padding: 25px;
+}
+#Skills{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 50px;
+}
+#sec3{
+    background-color: darkgray;
+    height: 300px;
+    width: 850px;
+    position: relative;
+    top: 65px;
+    left: 400px;
+    text-align: center;
+}
+#interest{
+    position: relative;
+    top: 50px;
+}
+#projects{
+    background-color: darkgray;
+    height: 300px;
+    width: 850px;
+    position: relative;
+    top: 65px;
+    left: 400px;
+    text-align: center;
+}
+#pro{
+    position: relative;
+    top: 50px;
+}
+#pro1{
+    position: relative;
+    top: 25px;
+}
+#contact{
+    position: relative;
+    top:65px;
+    left: 400px ;
+    height: 300px;
+    width: 850px;
+    text-align: center;
+}
+.btn{
+    background-color: darkcyan;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+.btn:hover{
+    translate: 0 -10px 0;
+    cursor: pointer;
+}
+.skill:hover{
+    translate: 0 -10px 0;
+    cursor: pointer;
+}
+#foot{
+    text-align: center;
+}
